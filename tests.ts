@@ -30,37 +30,6 @@
   basic.showNumber(bitbot.sonar(BBPingUnit.Centimeters));
   basic.showNumber(bitbot.sonar(BBPingUnit.Inches));
 
-  // Show all leds
-  bitbot.neoSetColor(neopixel.colors(NeoPixelColors.Red));
-  bitbot.neoShow();
 
-  // Clear all leds
-  bitbot.neoClear();
-  bitbot.neoShow();
 
-  // Show led at position 1
-  bitbot.neoSetPixelColor(0, neopixel.colors(NeoPixelColors.Red));
-  bitbot.neoShow();
-
-  // Show led rainbow
-  bitbot.neoRainbow();
-  bitbot.neoShow();
-
-  // Show led rainbow and shift
-  bitbot.neoRainbow();
-  bitbot.neoShift();
-  bitbot.neoShow();
-
-  // Show led rainbow and rotate
-  bitbot.neoRainbow();
-  bitbot.neoRotate();
-  bitbot.neoShow();
-
-  // Set brightness of leds
-  bitbot.neoBrightness(100);
-  bitbot.neoShow();
-
-  // Use neo() variable
-  bitbot.neo().clear();
-  bitbot.neo().show();
 }
